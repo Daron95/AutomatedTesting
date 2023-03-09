@@ -13,10 +13,22 @@ public class calcTest {
        c = new calc();
     }
     @Test
-    public void testFind(){
+    public void testaddition(){
         assertEquals(10 ,c.addition(4,6));
+    }
+    @Test
+    public void testsubtraction(){
         assertEquals(0, c.subtraction(8 , 8));
+    }
+    @Test
+    public void testmultiply(){
+
         assertEquals(25 , c.multiply(5,5));
+
+    }
+    @Test
+    public void testdivision(){
+
         assertEquals(6 , c.division(36 , 6));
     }
 }
